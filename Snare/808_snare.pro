@@ -1,4 +1,4 @@
-update=2017 October 21, Saturday 20:19:42
+update=2018 March 25, Sunday 22:51:29
 version=1
 last_client=kicad
 [pcbnew]
@@ -56,5 +56,6 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=/Users/nw/Documents/KiCAD_lib/transistor2
 [general]
 version=1

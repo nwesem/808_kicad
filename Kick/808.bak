@@ -1037,4 +1037,20 @@ Wire Wire Line
 	7600 4900 7600 5000
 Wire Wire Line
 	7950 5300 7700 5300
+Text GLabel 7800 4350 2    60   Input ~ 0
++15V
+Wire Wire Line
+	7800 4350 7800 4200
+Text GLabel 7800 3500 2    60   Input ~ 0
+-15V
+Wire Wire Line
+	7800 3500 7800 3600
+Text GLabel 5250 5050 2    60   Input ~ 0
+-15V
+Wire Wire Line
+	5250 5050 5250 5200
+Text GLabel 5250 6000 2    60   Input ~ 0
++15V
+Wire Wire Line
+	5250 6000 5250 5800
 $EndSCHEMATC
