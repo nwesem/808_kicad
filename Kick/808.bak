@@ -898,7 +898,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 4550 6700 4800
 Wire Wire Line
-	6700 4800 6350 4800
+	6350 4800 6700 4800
 Wire Wire Line
 	6350 4600 6350 5000
 Wire Wire Line
@@ -1205,8 +1205,6 @@ Wire Wire Line
 Connection ~ 1250 5400
 Text GLabel 1100 4350 1    60   Input ~ 0
 +15V
-Wire Wire Line
-	1100 4350 1100 4550
 $Comp
 L CONN_01X02 J2
 U 1 1 5AB90153
@@ -1255,8 +1253,10 @@ F 1 "Trigger" H 1100 4690 50  0000 C CNN
 F 2 "Buttons_Switches_THT:SW_PUSH_6mm" H 1100 4950 50  0001 C CNN
 F 3 "" H 1100 4950 50  0001 C CNN
 	1    1100 4750
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	1100 5050 1100 4950
+Wire Wire Line
+	1100 4350 1100 4550
 $EndSCHEMATC
